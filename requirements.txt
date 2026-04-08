@@ -1,0 +1,55 @@
+# === Core ===
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+seaborn>=0.13
+
+# === ML ===
+scikit-learn>=1.4
+xgboost>=2.0
+lightgbm>=4.3
+optuna>=3.6
+imbalanced-learn>=0.12
+
+# === Deep Learning ===
+torch>=2.2
+torchvision>=0.17
+onnx>=1.15
+onnxruntime>=1.17
+
+# === NLP / LLM ===
+openai>=1.30
+langchain>=0.2
+langchain-openai>=0.1
+langchain-community>=0.2
+chromadb>=0.5
+tiktoken>=0.7
+sentence-transformers>=3.0
+
+# === API ===
+fastapi>=0.111
+uvicorn>=0.29
+pydantic>=2.7
+python-multipart>=0.0.9
+python-jose[cryptography]>=3.3
+slowapi>=0.1.9
+
+# === MLOps ===
+mlflow>=2.13
+dvc>=3.50
+
+# === Speech ===
+# faster-whisper>=1.0  # Uncomment when needed (needs ctranslate2)
+librosa>=0.10
+soundfile>=0.12
+
+# === Data Engineering ===
+# pyspark>=3.5  # Uncomment when needed (heavy dependency)
+# kafka-python>=2.0  # Uncomment when needed
+
+# === Utils ===
+python-dotenv>=1.0
+requests>=2.31
+tqdm>=4.66
+rich>=13.7
+httpx>=0.27
